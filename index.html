@@ -110,7 +110,7 @@
           >
             <img
               id="img-js"
-              src="assets/img/js.png"
+              src="assets/img/challenge-1/js.png"
               alt="JS"
               class="img-fluid mb-3"
             />
@@ -121,7 +121,62 @@
             role="tabpanel"
             aria-labelledby="pills-challenge-2-tab"
           >
-            ...
+            <div class="row justify-content-center">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Docker Sticker</h5>
+
+                    <img
+                      src="assets/img/challenge-2/docker.jpg"
+                      alt="Docker"
+                      class="img-fluid mb-3"
+                    />
+
+                    <input id="in-docker" type="text" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Git Sticker</h5>
+                    <img
+                      src="assets/img/challenge-2/git.png"
+                      alt="GIT"
+                      class="img-fluid mb-3"
+                    />
+                    <input id="in-git" type="text" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">AWS Sticker</h5>
+                    <img
+                      src="assets/img/challenge-2/aws.jpg"
+                      alt="AWS"
+                      class="img-fluid mb-3"
+                    />
+                    <input id="in-aws" type="text" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 p-lg-1 mx-auto my-1">
+              <h5 class="fw-normal text-muted mb-3">
+                Cantidad de stickers : <span id="total-stickers"></span
+                ><span id="stickers-limit">
+                  (Cantidad de stickers superados)</span
+                >
+              </h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"></div>
+              </div>
+
+            </div>
           </div>
           <div
             class="tab-pane fade"
@@ -144,6 +199,7 @@
       </div>
     </footer>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/challenge-1.js"></script>
+    <script src="assets/js/challenge-2.js"></script>
   </body>
 </html>

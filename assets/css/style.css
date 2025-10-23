@@ -1,2 +1,7 @@
 * {
 }
+
+#stickers-limit {
+  color: rgba(255, 0, 0, 1);
+  display: none;
+}
